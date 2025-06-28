@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Language Translator </title>
+    <link rel="stylesheet" href="../css/translate.css">
+    
+    <link rel="stylesheet" type="text/css" href="../css/navStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+          <div class="logo">
+              <a href="home.html">Dictionary.com</a>
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="home.html"> Home</a></li>
+                  <li><a href="project.html">Dictionary</a></li>
+                  <li><a href="translate.html">Translate</a></li>
+                  <li class="games-dropdown">
+                    <a href="#">Games <i  class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <div class="games-dropdown-content">
+                      <a href="scramble.html">Scramble</a>
+                      <a href="hangman.html">Hangman</a>
+                    </div>                 
+             
+                  <li><a href="word.html">Word of the Day</a></li>
+              </ul>
+          </nav>
+          <div class="menu-toggle">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </div>
+  <br><br><br>
+  <br><br><br><br><br><br>
+    <div class="container">
+      <div class="wrapper">
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+        </div>
+        <ul class="controls">
+          <li class="row from">
+            <div class="icons">
+              <i id="from" class="fas fa-volume-up"></i>
+              <i id="from" class="fas fa-copy"></i>
+            </div>
+            <select></select>
+          </li>
+          <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+          <li class="row to">
+            <select></select>
+            <div class="icons">
+              <i id="to" class="fas fa-volume-up"></i>
+              <i id="to" class="fas fa-copy"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button>Translate Text</button>
+    </div>
+
+    <script src="../js/countries.js"></script>
+    <script src="../js/script.js"></script>
+
+  </body>
+</html>

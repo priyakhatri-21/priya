@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="../css/scramble.css">
+    <link rel="stylesheet" href="../css/navStyle.css">
+
+    <!-- <link rel="stylesheet" href="project.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/words.js" defer></script>
+    <script src="../js/scramble-script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="navbar">
+          <div class="logo">
+              <a href="home.html">Dictionary.com</a>
+          </div>
+          <nav style="padding-top: 0;">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="project.html">Dictionary</a></li>
+              <li><a href="translate.html">Translate</a></li>
+              <li class="games-dropdown">
+              <a href="#">Games <i  class="fas fa-chevron-down dropdown-icon"></i></a>
+              <div class="games-dropdown-content">
+                <a href="scramble.html">Scramble</a>
+                <a href="hangman.html">Hangman</a>
+              </div>
+              </li>
+              <li><a href="word.html">Word of the Day</a></li>
+            </ul>
+            </nav>
+          <div class="menu-toggle">
+              <i class="fas fa-bars"></i>
+          </div>
+      </div>
+  </div>
+  
+    <div class="container">
+        <h2>Word Scramble</h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter a valid word" autocomplete="off">
+            <div class="buttons">
+                <button class="refresh-word">New Word</button>
+                <button class="check-word">Check Word</button>
+            </div>
+        </div>
+    </div>
+    
+  </body>
+</html>

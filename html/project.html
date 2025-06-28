@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICTIONARY.COM</title>
+    <link rel="stylesheet" type="text/css" href="../css/navStyle.css">
+    <link rel="stylesheet" href="../css/project.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="/Dictionary/images/illustration-man-laptop-flags.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<body>
+   <div class="header">
+    <div class="navbar">
+        <div class="logo">
+            <a href="home.html">Dictionary.com</a>
+        </div>
+        <nav style="padding-top: 0;">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="project.html">Dictionary</a></li>
+              <li><a href="translate.html">Translate</a></li>
+              <li class="games-dropdown">
+                <a href="#">Games <i  class="fas fa-chevron-down dropdown-icon"></i></a>
+                <div class="games-dropdown-content">
+                  <a href="scramble.html">Scramble</a>
+                  <a href="hangman.html">Hangman</a>
+                </div>
+              </li>
+              <li><a href="word.html">Word of the Day</a></li>
+            </ul>
+          </nav>
+          
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</div>
+
+    <!--heading-->
+    <div class="image">
+     <header><br><br> Improve  your  Vocabulary...</header>
+    </div>
+
+    <div class="wrapper">
+
+        <!--search bar-->
+    <div class="searchbar">
+            <button type="submit" id="search-button"><i class="ri-search-2-line" id="sc"></i></button>
+            <input type="text" id="content-container"placeholder="Search your word" required spellcheck="false" autocomplete="off">
+            <button type="reset" id="reset-button"><i class="ri-close-fill"></i></button>
+       
+    </div>
+ 
+    <div class="info-text"></div>
+
+    <!--word meaning-->
+    <ul>
+        <li class="word">
+            <div class="details">
+              <p>__</p>
+              <span>_</span>
+            </div>
+            <i class="ri-volume-up-fill" id="vol"></i> <!--icon-->
+          </li>
+    </ul>
+
+    <!--additional block-->
+    <div class="content">
+                <div class="details" id="Meaning">
+                        <p>Meaning</p>
+                        <span id="meaning-id">_</span>
+                </div>
+            
+                <div class="details" id="Example">
+                        <p>Example</p>
+                        <span id="example-id">_</span>
+                </div>
+                
+               <div class="details" >
+                    <p>Synonyms</p>
+                    <span id="synonyms">_</span>
+               </div>
+            
+                <div class="details" >
+                        <p>Antonyms</p>
+                        <span id="antonyms">_</span>
+                    </div>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+   <script src="../js/project.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="../css/home.css">
+	<link rel="stylesheet" href="../css/navStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="navbar">
+			<div class="logo">
+				<a href="home.html">Dictionary.com</a>
+			</div>
+			<nav style="padding-top: 0;">
+				<ul>
+				  <li><a href="home.html">Home</a></li>
+				   <li><a href="home.html">Home</a></li>
+				  <li><a href="project.html">Dictionary</a></li>
+				  <li><a href="translate.html">Translate</a></li>
+				  <li class="games-dropdown">
+					<a href="#">Games <i  class="fas fa-chevron-down dropdown-icon"></i></a>
+					<div class="games-dropdown-content">
+					  <a href="scramble.html">Scramble</a>
+					  <a href="hangman.html">Hangman</a>
+					</div>
+				  </li>
+				  <li><a href="word.html">Word of the Day</a></li>
+				</ul>
+			  </nav>
+			  
+			<div class="menu-toggle">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+	</div>
+	<section class="welcome">
+	
+		<div class="image">
+			<header> <br> <br> <br> Expand Your Vocabulary and Knowledge with Dictionary.com...</header>
+		</div><br><br>
+		<p class="description"> <br><br> Find the meaning, antonym and synonym of any word and translate text to any
+			language. Play fun games like Scramble and Hangman to improve your vocabulary.</p>
+	</section>
+	<section class="features" id="features">
+		<h2>Features</h2>
+
+
+		<!-- ************card hover -->
+		<div class="wrapper">
+			<div class="card">
+				<img src="../images/dictionary.jpg" alt="">
+				<div class="info">
+					<h1>Dictionary</h1>
+					<p desc>Search meaning,example,antonym and synonym of any word here!!!</p>
+					<a href="project.html" class="btn">Click Me</a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="../images/translateimg.png" alt="">
+				<div class="info">
+					<h1>Translate</h1>
+					<p>Translate any text from one language to another here!!!</p>
+					<a href="translate.html" class="btn">Click Me</a>
+				</div>
+			</div>
+			<div class="card">
+				<img src="../images/wordoftheday.webp" alt="">
+				<div class="info">
+					<h1>Word of the Day</h1>
+					<p>Learn new word everyday!!!</p>
+					<a href="word.html" class="btn">Click Me</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="features" id="features">
+		<h2>Games</h2>
+
+
+		<!-- ************card hover -->
+		<div class="wrapper">
+			<div class="card">
+				<img src="../images/scramble.jpg" alt="">
+				<div class="info">
+					<h1>Scramble</h1>
+					<p>Rearrange the letters to make a meaningful word!!!</p>
+					<a href="scramble.html" class="btn">Click Me</a>
+				</div>
+			</div>
+
+			<div class="card">
+				<img src="../images/hangman.webp" alt="">
+				<div class="info">
+					<h1>Hangman</h1>
+					<p>Try to guess the word !!!</p>
+					<a href="hangman.html" class="btn">Click Me</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- **********CONTACT US -->
+	<br>
+	<br>
+	<section id="contact">
+		<div class="contact-container">
+			<h2> <br> Contact Us</h2>
+			<p>Have a question or need assistance? Fill out the form below and we'll get back to you.</p>
+
+			<form class="contactform " action="https://formspree.io/f/mvonnokv" method="POST">
+				<div class="wrap-input validate-input" data-validate="Name is required">
+					<span class="label-input">Full Name:</span>
+					<input class="input" type="text" name="name" placeholder="Enter full name" required autocomplete="off">
+				</div>
+				<div class="wrap-input validate-input" data-validate="Valid email is required: ex@abc.xyz">
+					<span class="label-input">Email:</span>
+					<input class="input" type="text" name="email" placeholder="Enter email addess" required autocomplete="off">
+				</div>
+				<div class="wrap-input validate-input" data-validate="Phone is required">
+					<span class="label-input">Phone:</span>
+					<input class="input" type="text" name="phone" placeholder="Enter phone number" required autocomplete="off">
+				</div>
+				<div class="wrap-input validate-input" data-validate="Message is required">
+					<span class="label-input">Message:</span>
+					<textarea class="input" name="message" placeholder="Your Comment..." required autocomplete="off"></textarea>
+				</div>
+				<div class="container-contactform-btn">
+					<button class="contactform-btn">
+						<span>
+							Submit
+							<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+	</section>
+		
+
+</body>
+
+</html>
